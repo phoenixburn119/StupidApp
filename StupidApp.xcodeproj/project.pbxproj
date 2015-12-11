@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B0662B1C1B596B00864377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0662A1C1B596B00864377 /* AppDelegate.swift */; };
+		F5B0662D1C1B596B00864377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0662C1C1B596B00864377 /* ViewController.swift */; };
+		F5B066301C1B596B00864377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B0662E1C1B596B00864377 /* Main.storyboard */; };
+		F5B066321C1B596B00864377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B066311C1B596B00864377 /* Assets.xcassets */; };
+		F5B066351C1B596B00864377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B066331C1B596B00864377 /* LaunchScreen.storyboard */; };
+		F5B066401C1B596C00864377 /* StupidAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0663F1C1B596C00864377 /* StupidAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B0663C1C1B596C00864377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B0661F1C1B596B00864377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B066261C1B596B00864377;
+			remoteInfo = StupidApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5B066271C1B596B00864377 /* StupidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StupidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B0662A1C1B596B00864377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5B0662C1C1B596B00864377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5B0662F1C1B596B00864377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B066311C1B596B00864377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B066341C1B596B00864377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B066361C1B596B00864377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B0663B1C1B596C00864377 /* StupidAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StupidAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B0663F1C1B596C00864377 /* StupidAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidAppTests.swift; sourceTree = "<group>"; };
+		F5B066411C1B596C00864377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B066241C1B596B00864377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B066381C1B596C00864377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B0661E1C1B596B00864377 = {
+			isa = PBXGroup;
+			children = (
+				F5B066291C1B596B00864377 /* StupidApp */,
+				F5B0663E1C1B596C00864377 /* StupidAppTests */,
+				F5B066281C1B596B00864377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B066281C1B596B00864377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B066271C1B596B00864377 /* StupidApp.app */,
+				F5B0663B1C1B596C00864377 /* StupidAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B066291C1B596B00864377 /* StupidApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0662A1C1B596B00864377 /* AppDelegate.swift */,
+				F5B0662C1C1B596B00864377 /* ViewController.swift */,
+				F5B0662E1C1B596B00864377 /* Main.storyboard */,
+				F5B066311C1B596B00864377 /* Assets.xcassets */,
+				F5B066331C1B596B00864377 /* LaunchScreen.storyboard */,
+				F5B066361C1B596B00864377 /* Info.plist */,
+			);
+			path = StupidApp;
+			sourceTree = "<group>";
+		};
+		F5B0663E1C1B596C00864377 /* StupidAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0663F1C1B596C00864377 /* StupidAppTests.swift */,
+				F5B066411C1B596C00864377 /* Info.plist */,
+			);
+			path = StupidAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B066261C1B596B00864377 /* StupidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B066441C1B596C00864377 /* Build configuration list for PBXNativeTarget "StupidApp" */;
+			buildPhases = (
+				F5B066231C1B596B00864377 /* Sources */,
+				F5B066241C1B596B00864377 /* Frameworks */,
+				F5B066251C1B596B00864377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StupidApp;
+			productName = StupidApp;
+			productReference = F5B066271C1B596B00864377 /* StupidApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B0663A1C1B596C00864377 /* StupidAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B066471C1B596C00864377 /* Build configuration list for PBXNativeTarget "StupidAppTests" */;
+			buildPhases = (
+				F5B066371C1B596C00864377 /* Sources */,
+				F5B066381C1B596C00864377 /* Frameworks */,
+				F5B066391C1B596C00864377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B0663D1C1B596C00864377 /* PBXTargetDependency */,
+			);
+			name = StupidAppTests;
+			productName = StupidAppTests;
+			productReference = F5B0663B1C1B596C00864377 /* StupidAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B0661F1C1B596B00864377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					F5B066261C1B596B00864377 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F5B0663A1C1B596C00864377 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F5B066261C1B596B00864377;
+					};
+				};
+			};
+			buildConfigurationList = F5B066221C1B596B00864377 /* Build configuration list for PBXProject "StupidApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B0661E1C1B596B00864377;
+			productRefGroup = F5B066281C1B596B00864377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B066261C1B596B00864377 /* StupidApp */,
+				F5B0663A1C1B596C00864377 /* StupidAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B066251C1B596B00864377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B066351C1B596B00864377 /* LaunchScreen.storyboard in Resources */,
+				F5B066321C1B596B00864377 /* Assets.xcassets in Resources */,
+				F5B066301C1B596B00864377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B066391C1B596C00864377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B066231C1B596B00864377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B0662D1C1B596B00864377 /* ViewController.swift in Sources */,
+				F5B0662B1C1B596B00864377 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B066371C1B596C00864377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B066401C1B596C00864377 /* StupidAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B0663D1C1B596C00864377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B066261C1B596B00864377 /* StupidApp */;
+			targetProxy = F5B0663C1C1B596C00864377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B0662E1C1B596B00864377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B0662F1C1B596B00864377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B066331C1B596B00864377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B066341C1B596B00864377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B066421C1B596C00864377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B066431C1B596C00864377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B066451C1B596C00864377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5B066461C1B596C00864377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StupidApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5B066481C1B596C00864377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StupidAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidApp.app/StupidApp";
+			};
+			name = Debug;
+		};
+		F5B066491C1B596C00864377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StupidAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ctec.StupidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StupidApp.app/StupidApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B066221C1B596B00864377 /* Build configuration list for PBXProject "StupidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B066421C1B596C00864377 /* Debug */,
+				F5B066431C1B596C00864377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B066441C1B596C00864377 /* Build configuration list for PBXNativeTarget "StupidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B066451C1B596C00864377 /* Debug */,
+				F5B066461C1B596C00864377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5B066471C1B596C00864377 /* Build configuration list for PBXNativeTarget "StupidAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B066481C1B596C00864377 /* Debug */,
+				F5B066491C1B596C00864377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B0661F1C1B596B00864377 /* Project object */;
+}
